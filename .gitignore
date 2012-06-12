@@ -163,3 +163,18 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+
+
+
+#############
+## WordPress
+#############
+
+.htaccess
+wp-admin/
+wp-includes/
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/
+wp-config.php
